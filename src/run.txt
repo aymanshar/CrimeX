@@ -1,0 +1,1 @@
+python scripts/run_full_pipeline.py --input data/raw/crime_data.csv
