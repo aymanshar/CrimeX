@@ -1,6 +1,6 @@
 # CRIMEX — Crime Intelligence Dataset Pipeline
 
-## 📌 Overview
+## Overview
 
 CRIMEX is a research-grade framework that transforms raw crime and watchlist data into **intelligence-ready datasets** using feature engineering, behavioral modeling, and explainability.
 
@@ -59,37 +59,37 @@ python scripts/run_actor_pipeline.py \
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-CrimeX/
-├── data/
-│ ├── raw/ # Raw downloaded datasets
-│ └── final/ # Final enriched datasets
-│
-├── notebooks/
-│ ├── crimex_la_pipeline_reproducible.ipynb
-│ └── 01_crimex_actor_intelligence_pipeline.ipynb
-│
-├── src/
-│ ├── actor.py
-│ ├── actor_pipeline.py
-│ ├── actor_extended.py
-│ ├── pipeline.py
-│ ├── cleaning.py
-│ ├── temporal.py
-│ ├── geo.py
-│ ├── multilingual.py
-│ ├── behavior.py
-│ ├── context.py
-│ ├── graph.py
-│ ├── quality.py
-│ ├── explainability.py
-│ └── schema.py
-│
-├── scripts/
-│ └── run_actor_pipeline.py
-│
-└── README.md
+	CrimeX/
+	├── data/
+	│ ├── raw/ # Raw downloaded datasets
+	│ └── final/ # Final enriched datasets
+	│
+	├── notebooks/
+	│ ├── crimex_la_pipeline_reproducible.ipynb
+	│ └── 01_crimex_actor_intelligence_pipeline.ipynb
+	│
+	├── src/
+	│ ├── actor.py
+	│ ├── actor_pipeline.py
+	│ ├── actor_extended.py
+	│ ├── pipeline.py
+	│ ├── cleaning.py
+	│ ├── temporal.py
+	│ ├── geo.py
+	│ ├── multilingual.py
+	│ ├── behavior.py
+	│ ├── context.py
+	│ ├── graph.py
+	│ ├── quality.py
+	│ ├── explainability.py
+	│ └── schema.py
+	│
+	├── scripts/
+	│ └── run_actor_pipeline.py
+	│
+	└── README.md																																				
 	
 ---
 
@@ -110,7 +110,7 @@ pip install pandas requests tqdm pyarrow
 
 ---
 
-# 🧱 CRIMEX v1 — Crime Intelligence (LA Dataset)
+# CRIMEX v1 — Crime Intelligence (LA Dataset)
 
 CRIMEX v1 transforms raw crime incident data into intelligence-ready features.
 
@@ -136,9 +136,9 @@ CRIMEX generates:
 
 ---
 
-# 🧠 CRIMEX v2 — Actor Intelligence Pipeline
+# CRIMEX v2 — Actor Intelligence Pipeline
 
-## 📌 Overview
+## Overview
 
 CRIMEX Actor Intelligence builds a **person-level intelligence dataset** from public watchlists and criminal datasets.
 
@@ -151,7 +151,7 @@ It transforms OpenSanctions data into:
 
 ---
 
-## 📊 Data Source
+## Data Source
 
 This pipeline uses:
 
@@ -163,9 +163,9 @@ Users must comply with attribution and non-commercial usage requirements.
 
 ---
 
-## ⚙️ Pipeline Design
+## Pipeline Design
 
-### 🔹 Core Pipeline (`src/actor.py`)
+### Core Pipeline (`src/actor.py`)
 
 Production-ready features:
 
@@ -180,7 +180,7 @@ Production-ready features:
 
 ---
 
-### 🔹 Extended Features (`src/actor_extended.py`)
+### Extended Features (`src/actor_extended.py`)
 
 Research and analyst features:
 
@@ -194,7 +194,7 @@ Research and analyst features:
 
 ---
 
-## 📦 Output
+## Output
 
 The pipeline produces:
 
@@ -206,7 +206,7 @@ The pipeline produces:
 
 ---
 
-## 🎯 Example Features
+## Example Features
 
 | Feature | Description |
 |--------|------------|
@@ -218,7 +218,7 @@ The pipeline produces:
 
 ---
 
-# 🔬 Feature Engineering (CRIMEX v1)
+# Feature Engineering (CRIMEX v1)
 
 ## Temporal Features
 - Year, month, day, hour  
@@ -257,7 +257,7 @@ The pipeline produces:
 
 ---
 
-# 📊 Example Output
+# Example Output
 
 | Stage | Columns |
 |------|--------|
@@ -267,7 +267,7 @@ The pipeline produces:
 
 ---
 
-# 🎯 Use Cases
+# Use Cases
 
 - Crime prediction models  
 - Risk scoring systems  
@@ -277,7 +277,7 @@ The pipeline produces:
 
 ---
 
-# 🚀 Future Work
+# Future Work
 
 ## Geo / POI Enrichment
 - OpenStreetMap integration  
@@ -293,14 +293,14 @@ The pipeline produces:
 
 ---
 
-# 👤 Author
+# Author
 
 Ayman Sharara  
 Data Scientist | AI Researcher | Crime Intelligence Systems  
 
 ---
 
-# 🤝 Contributions
+# Contributions
 
 This project is open for learning and improvement.
 
@@ -312,6 +312,6 @@ You can:
 
 ---
 
-# 📬 Feedback
+# Feedback
 
 Contributions and feedback are welcome.
